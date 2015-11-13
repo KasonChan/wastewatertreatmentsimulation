@@ -1,0 +1,21 @@
+*.jar
+*~
+
+# Eclipse, Intellij
+/.classpath
+/.project
+/src/intellij/*.iml
+/src/intellij/*.ipr
+/src/intellij/*.iws
+/.cache
+/.idea
+/.settings
+/examples/.classpath
+/examples/.project
+scala-swing.iml
+target/
+*.bak
+
+# Mac
+.DS_Store
+
