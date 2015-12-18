@@ -18,6 +18,7 @@ val baseSettings = Seq(
   libraryDependencies ++= Seq(
     "org.scala-lang.modules" %% "scala-swing" % "1.0.1"
   ) ++ testDependencies.map(_ % "test"),
+  javaOptions in Runtime += "-Djava.awt.headless=true",
   scalacOptions in(Compile, console) := compilerOptions
 )
 
